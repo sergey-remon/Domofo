@@ -9,7 +9,7 @@ public abstract class Menu {
 
     public String get() {
         String inKey = "";
-        while (true) {
+        while (true){
             print();
             inKey = getConsole();
             if (menu.containsKey(inKey))
